@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/sql_instr_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="@string/sql_instr_TextView_text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/sql_insert_EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/sql_instr_TextView"
+        android:layout_marginTop="58dp"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/sql_insert_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sql_insert_EditText"
+        android:layout_alignParentRight="true"
+        android:text="@string/sql_insert_Button_text" />
+
+    <Button
+        android:id="@+id/sql_view_values_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sql_insert_EditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="116dp"
+        android:text="@string/sql_view_values_Button_text" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/lrebelo/AndroidStudioProjects/LuisExamples/app/src/main/res/layout/sql_db_input_layout.xml -->

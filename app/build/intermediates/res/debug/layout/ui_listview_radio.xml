@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<RadioGroup
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" 
+	    android:id="@+id/ui_listview_radiogone">
+	    
+	
+	</RadioGroup>
+	
+	<RadioGroup 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" 
+	    android:id="@+id/ui_listview_radiogtwo">
+	
+	</RadioGroup>
+	
+	<RadioGroup 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" 
+	    android:id="@+id/ui_listview_radiogthree">
+	
+	</RadioGroup>
+</RelativeLayout><!-- From: file:/C:/Users/lrebelo/AndroidStudioProjects/LuisExamples/app/src/main/res/layout/ui_listview_radio.xml -->

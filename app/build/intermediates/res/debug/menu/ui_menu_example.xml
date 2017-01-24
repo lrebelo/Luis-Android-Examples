@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item 
+        android:id="@+id/ui_menu_example_i1"
+		android:title="@string/ui_menu_example_i1_text"/>
+    
+    <item 
+        android:id="@+id/ui_menu_example_i2"
+		android:title="@string/ui_menu_example_i2_text"/>
+
+</menu>
+<!-- From: file:/C:/Users/lrebelo/AndroidStudioProjects/LuisExamples/app/src/main/res/menu/ui_menu_example.xml -->

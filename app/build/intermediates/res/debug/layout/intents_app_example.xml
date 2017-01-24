@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/intent_app_call_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/intent_app_call_textView"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/intent_app_email_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/intent_app_call_textView"
+        android:layout_marginTop="61dp"
+        android:text="@string/intent_app_email_textView_txt"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/intent_app_txt_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/intent_app_email_textView"
+        android:layout_marginTop="24dp"
+        android:text="@string/intent_app_txt_textView_txt"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/intent_app_email_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/intent_app_email_textView"
+        android:layout_alignBottom="@+id/intent_app_email_textView"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/intent_app_email_textView"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/intent_app_txt_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/intent_app_txt_textView"
+        android:layout_alignBottom="@+id/intent_app_txt_textView"
+        android:layout_alignLeft="@+id/intent_app_email_editText"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/intent_app_call_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/intent_app_txt_editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:text="@string/intent_app_call_button" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/lrebelo/AndroidStudioProjects/LuisExamples/app/src/main/res/layout/intents_app_example.xml -->

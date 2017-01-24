@@ -1,0 +1,189 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+application
+ADDED from AndroidManifest.xml:11:5
+	android:label
+		ADDED from AndroidManifest.xml:14:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:12:9
+	android:icon
+		ADDED from AndroidManifest.xml:13:9
+	android:theme
+		ADDED from AndroidManifest.xml:15:9
+activity#lrebelo.examples.android.Welcome
+ADDED from AndroidManifest.xml:17:9
+	android:label
+		ADDED from AndroidManifest.xml:19:13
+	android:name
+		ADDED from AndroidManifest.xml:18:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:20:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:21:17
+	android:name
+		ADDED from AndroidManifest.xml:21:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:23:17
+	android:name
+		ADDED from AndroidManifest.xml:23:27
+activity#lrebelo.examples.android.Intentexamples
+ADDED from AndroidManifest.xml:27:9
+	android:label
+		ADDED from AndroidManifest.xml:29:13
+	android:name
+		ADDED from AndroidManifest.xml:28:13
+activity#lrebelo.examples.android.SQLexamples
+ADDED from AndroidManifest.xml:39:9
+	android:label
+		ADDED from AndroidManifest.xml:41:13
+	android:name
+		ADDED from AndroidManifest.xml:40:13
+activity#lrebelo.examples.android.UIexamples
+ADDED from AndroidManifest.xml:44:9
+	android:label
+		ADDED from AndroidManifest.xml:46:13
+	android:name
+		ADDED from AndroidManifest.xml:45:13
+activity#lrebelo.examples.android.intents.IntentsSimpleExample
+ADDED from AndroidManifest.xml:51:9
+	android:label
+		ADDED from AndroidManifest.xml:53:13
+	android:name
+		ADDED from AndroidManifest.xml:52:13
+activity#lrebelo.examples.android.intents.IntentExtraReader
+ADDED from AndroidManifest.xml:56:9
+	android:label
+		ADDED from AndroidManifest.xml:58:13
+	android:name
+		ADDED from AndroidManifest.xml:57:13
+activity#lrebelo.examples.android.intents.IntentsAPPExample
+ADDED from AndroidManifest.xml:61:9
+	android:label
+		ADDED from AndroidManifest.xml:63:13
+	android:name
+		ADDED from AndroidManifest.xml:62:13
+activity#lrebelo.examples.android.ui.FrameLayout_UIex
+ADDED from AndroidManifest.xml:70:9
+	android:label
+		ADDED from AndroidManifest.xml:72:13
+	android:name
+		ADDED from AndroidManifest.xml:71:13
+activity#lrebelo.examples.android.ui.GridLayout_UIex
+ADDED from AndroidManifest.xml:75:9
+	android:label
+		ADDED from AndroidManifest.xml:77:13
+	android:name
+		ADDED from AndroidManifest.xml:76:13
+activity#lrebelo.examples.android.ui.LinearLayout_UIex
+ADDED from AndroidManifest.xml:80:9
+	android:label
+		ADDED from AndroidManifest.xml:82:13
+	android:name
+		ADDED from AndroidManifest.xml:81:13
+activity#lrebelo.examples.android.ui.RelativeLayout_UIex
+ADDED from AndroidManifest.xml:85:9
+	android:label
+		ADDED from AndroidManifest.xml:87:13
+	android:name
+		ADDED from AndroidManifest.xml:86:13
+activity#lrebelo.examples.android.ui.TableLayout_UIex
+ADDED from AndroidManifest.xml:90:9
+	android:label
+		ADDED from AndroidManifest.xml:92:13
+	android:name
+		ADDED from AndroidManifest.xml:91:13
+activity#lrebelo.examples.android.ui.listview.ListViewMenu_UI
+ADDED from AndroidManifest.xml:95:9
+	android:label
+		ADDED from AndroidManifest.xml:97:13
+	android:name
+		ADDED from AndroidManifest.xml:96:13
+activity#lrebelo.examples.android.ui.listview.ListViewSimple_UIex
+ADDED from AndroidManifest.xml:100:9
+	android:label
+		ADDED from AndroidManifest.xml:102:13
+	android:name
+		ADDED from AndroidManifest.xml:101:13
+activity#lrebelo.examples.android.ui.listview.ListViewSQL_UIex
+ADDED from AndroidManifest.xml:105:9
+	android:label
+		ADDED from AndroidManifest.xml:107:13
+	android:name
+		ADDED from AndroidManifest.xml:106:13
+activity#lrebelo.examples.android.ui.listview.ListViewSQLRadio_UIex
+ADDED from AndroidManifest.xml:110:9
+	android:label
+		ADDED from AndroidManifest.xml:112:13
+	android:name
+		ADDED from AndroidManifest.xml:111:13
+activity#lrebelo.examples.android.ui.Menu_Toast_UIex
+ADDED from AndroidManifest.xml:115:9
+	android:label
+		ADDED from AndroidManifest.xml:117:13
+	android:name
+		ADDED from AndroidManifest.xml:116:13
+activity#lrebelo.examples.android.ui.Widgets_UIex
+ADDED from AndroidManifest.xml:120:9
+	android:label
+		ADDED from AndroidManifest.xml:122:13
+	android:name
+		ADDED from AndroidManifest.xml:121:13
+activity#lrebelo.examples.android.sql.SQLSimpleExample
+ADDED from AndroidManifest.xml:127:9
+	android:label
+		ADDED from AndroidManifest.xml:129:13
+	android:name
+		ADDED from AndroidManifest.xml:128:13
+activity#lrebelo.examples.android.sql.SQLviewSimpleValues
+ADDED from AndroidManifest.xml:132:9
+	android:label
+		ADDED from AndroidManifest.xml:134:13
+	android:name
+		ADDED from AndroidManifest.xml:133:13
+activity#lrebelo.examples.android.misc.MiscExamplesMenu
+ADDED from AndroidManifest.xml:140:9
+	android:label
+		ADDED from AndroidManifest.xml:142:13
+	android:name
+		ADDED from AndroidManifest.xml:141:13
+activity#lrebelo.examples.android.misc.MiscStringSplitExample
+ADDED from AndroidManifest.xml:145:9
+	android:label
+		ADDED from AndroidManifest.xml:147:13
+	android:name
+		ADDED from AndroidManifest.xml:146:13
+activity#lrebelo.examples.android.web.SocketConnect
+ADDED from AndroidManifest.xml:152:9
+	android:label
+		ADDED from AndroidManifest.xml:154:13
+	android:name
+		ADDED from AndroidManifest.xml:153:13
+activity#lrebelo.examples.android.asynctask.Asynct_example_layout
+ADDED from AndroidManifest.xml:159:9
+	android:label
+		ADDED from AndroidManifest.xml:161:13
+	android:name
+		ADDED from AndroidManifest.xml:160:13

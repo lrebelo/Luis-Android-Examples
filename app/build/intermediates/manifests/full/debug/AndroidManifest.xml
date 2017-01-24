@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lrebelo.examples.android"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="lrebelo.examples.android.Welcome"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="lrebelo.examples.android.Intentexamples"
+            android:label="@string/intent_examples_title" >
+        </activity>
+
+        <!--
+         NOTES
+         !-	 the activity tags are used to declare the different executable files
+         !-	 within your application, so if you want to create a new screen to add information
+         !-	 to your database (for example ...) you always need to add it here, otherwise your intents 
+         !-	 won't know what to connect to!!! 
+        -->
+
+        <activity
+            android:name="lrebelo.examples.android.SQLexamples"
+            android:label="@string/sql_examples_title" >
+        </activity>
+        <activity
+            android:name="lrebelo.examples.android.UIexamples"
+            android:label="@string/ui_examples" >
+        </activity>
+
+        <!-- Classes within 'lrebelo.examples.android.intent' -->
+
+        <activity
+            android:name="lrebelo.examples.android.intents.IntentsSimpleExample"
+            android:label="@string/intent_example_1_txt" >
+        </activity>
+        <activity
+            android:name="lrebelo.examples.android.intents.IntentExtraReader"
+            android:label="@string/intent_extra_reader_title" >
+        </activity>
+        <activity
+            android:name="lrebelo.examples.android.intents.IntentsAPPExample"
+            android:label="@string/intent_example_2_txt" >
+        </activity>
+
+        <!-- Classes within 'lrebelo.examples.android.ui' -->
+
+        <activity
+            android:name="lrebelo.examples.android.ui.FrameLayout_UIex"
+            android:label="@string/ui_frame_layout" >
+        </activity>
+        <activity
+            android:name="lrebelo.examples.android.ui.GridLayout_UIex"
+            android:label="@string/ui_grid_layout" >
+        </activity>
+        <activity
+            android:name="lrebelo.examples.android.ui.LinearLayout_UIex"
+            android:label="@string/ui_linear_layout" >
+        </activity>
+        <activity
+            android:name="lrebelo.examples.android.ui.RelativeLayout_UIex"
+            android:label="@string/ui_relative_layout" >
+        </activity>
+        <activity
+            android:name="lrebelo.examples.android.ui.TableLayout_UIex"
+            android:label="@string/ui_table_layout" >
+        </activity>
+        <activity
+            android:name="lrebelo.examples.android.ui.listview.ListViewMenu_UI"
+            android:label="@string/ui_list_layout" >
+        </activity>
+        <activity
+            android:name="lrebelo.examples.android.ui.listview.ListViewSimple_UIex"
+            android:label="@string/ui_list_layout" >
+        </activity>
+        <activity
+            android:name="lrebelo.examples.android.ui.listview.ListViewSQL_UIex"
+            android:label="@string/ui_list_layout" >
+        </activity>
+        <activity
+            android:name="lrebelo.examples.android.ui.listview.ListViewSQLRadio_UIex"
+            android:label="@string/ui_list_layout" >
+        </activity>
+        <activity
+            android:name="lrebelo.examples.android.ui.Menu_Toast_UIex"
+            android:label="@string/ui_menu_example" >
+        </activity>
+        <activity
+            android:name="lrebelo.examples.android.ui.Widgets_UIex"
+            android:label="@string/ui_awidgets_example" >
+        </activity>
+
+        <!-- Classes within 'lrebelo.examples.android.sql' -->
+
+        <activity
+            android:name="lrebelo.examples.android.sql.SQLSimpleExample"
+            android:label="@string/sql_example" >
+        </activity>
+        <activity
+            android:name="lrebelo.examples.android.sql.SQLviewSimpleValues"
+            android:label="@string/sql_view_values_title" >
+        </activity>
+
+        <!-- Classes within 'lrebelo.examples.android.misc' -->
+
+        <activity
+            android:name="lrebelo.examples.android.misc.MiscExamplesMenu"
+            android:label="@string/welcome_gotomisc_button" >
+        </activity>
+        <activity
+            android:name="lrebelo.examples.android.misc.MiscStringSplitExample"
+            android:label="@string/misc_stringsplit_button" >
+        </activity>
+
+        <!-- Classes within 'lrebelo.examples.android.web' -->
+
+        <activity
+            android:name="lrebelo.examples.android.web.SocketConnect"
+            android:label="@string/socket_title" >
+        </activity>
+
+        <!-- Classes within 'lrebelo.examples.android.asynctask' -->
+
+        <activity
+            android:name="lrebelo.examples.android.asynctask.Asynct_example_layout"
+            android:label="@string/misc_stringsplit_button" >
+        </activity>
+    </application>
+
+</manifest>

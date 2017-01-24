@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Luis\'s Examples</string>
+    <string name="action_settings">Settings</string>
+    <string name="page1_hi_string">Hello Students!!</string>
+    
+    <string name="page1_button2">UI Examples</string>
+    <string name="week1_example">Intent example - Week 1</string>
+    <string name="page1_button1">Intents Examples</string>
+    
+    <string name="page1_button3">SQLite Example</string>
+    <string name="page1_button4">Week 2 Exercice</string>
+    
+    <string name="ui_examples">UI Examples</string>
+    <string name="ui_relative_layout">RelativeLayout</string>
+    <string name="ui_linear_layout">LinearLayout</string>
+    <string name="ui_table_layout">TableLayout</string>
+    <string name="ui_frame_layout">FrameLayout</string>
+    <string name="ui_grid_layout">GridLayout</string>
+    <string name="ui_list_layout">List View</string>
+    <string name="ui_menu_example">Menu &amp; Toast Example</string>
+    <string name="ui_awidgets_example">Assorted Widgets Examples</string>
+    <string name="ui_simple_toast_textView_text">Simple Toast</string>
+    <string name="ui_text_toast_textView_text">Entrer a word for the Toast to display</string>
+    <string name="ui_text_toast_button_text">Text Toast</string>
+    <string name="ui_custom_toast_view_textView_text">Custom layout Toast (comming soon....)</string>
+    <string name="ui_menu_example_i1_text">Welcome Screen</string>
+    <string name="ui_menu_example_i2_text">mudkips..</string>
+    <string name="ui_listview_title">ListView Examples</string>
+    <string name="ui_listview_simple_button_text">Simple ListView</string>
+    <string name="ui_listview_sql_button_text">SQL ListView</string>
+    <string name="ui_listview_sql_Radio_button_text">SQL Radio ListView</string>
+    
+    
+    <string name="sql_example">SQLite example</string><string name="sql_instr_TextView_text">Add a name of an animal to the database</string>
+    <string name="sql_insert_Button_text">Insert to DB</string>
+    <string name="sql_view_values_Button_text">Click to view values</string>
+    <string name="sql_view_values_title">SQLite View Values</string>
+    <string name="sql_examples_title">SQL Examples</string>
+    <string name="sql_examples_simpleex_txt">SQL Simple Example</string>
+    <string name="sql_examples_mex_example_txt">SQL More Complex Example</string>
+    
+    <string name="intent_examples_title">Intent Examples</string>
+    <string name="intent_example_1_txt">Intent example</string>
+    <string name="intent_example_2_txt">Intent external app example</string><string name="intent_ex_header">Send a Value throught an intent!</string>
+    <string name="intent_ex_send_button">Send Intent</string>
+    <string name="intent_extra_reader_title">Intent String Reader</string><string name="intent_extra_reader_textView">This is the string sent throught the Intent</string>
+    <string name="intent_app_call_textView">Call an external Intent \n In this case a mail application.</string>
+    <string name="intent_app_call_button">Call Mail!</string>
+    <string name="intent_app_email_textView_txt">eMail:</string>
+    <string name="intent_app_txt_textView_txt">Message:</string>
+	
+	<string name="welcome_gotomisc_button">Misc Examples</string>
+	<string name="misc_stringsplit_button">String Split Example</string>
+	<string name="misc_split_button">Split!!</string>
+
+    <string name="pref_title">SharedPreferences example</string>
+    <string name="pref_save_button">Save Preferences</string>
+
+    <string name="socket_title">SimpleSocketExample</string>
+    <string name="menu_settings">Settings</string>
+    <string name="ip_val">IP address:</string>
+    <string name="port_val">Port:</string>
+    <string name="description">The server app recognizes 2 commands, \" hello \" and \" quit \"\n Both commands send a confirmation of received, and \"quit\" makes the server app shutdown. For db type \"db;msg1;msg2\"</string>
+    <string name="recv">Received Messages:</string>
+    <string name="dots">....................</string>
+
+
+</resources>
